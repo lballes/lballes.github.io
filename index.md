@@ -1,6 +1,6 @@
 # Lukas Balles
 
-I'm a doctoral student in machine learning at the Max Planck Institute for Intelligent Systems and the University of Tuebingen.
+I'm a doctoral student in machine learning at the [International Max Planck Research School for Intelligent Systems](https://imprs.is.mpg.de/), hosted by the Max Planck Institute for Intelligent Systems and the University of Tuebingen.
 
 ## News
 
