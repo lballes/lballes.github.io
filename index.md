@@ -4,14 +4,15 @@ I'm a doctoral student in machine learning at the [International Max Planck Rese
 
 ## News
 
-- I will be interning at Google Brain Montreal from March to June 2019.
+- I am on parental leave starting from September 2019
+- ~~I am interning at Google Brain Montreal from March to June 2019.~~
 
 
 ## Research
 
 I am primarily working on optimization methods for machine learning with a focus on deep learning. Optimization algorithms are the number crunching workhorse of contemporary machine learning! Intriguingly, numerical optimizers themselves can be seen as compact little "learning machines": they make decisions (where to evaluate next, how many and which data points to use) based on observations (stochastic evaluations of function values and gradients). My goal is to design smarter optimizers!
 
-Currently, my research centers around utilizing (estimates of) the _stochastic gradient (co-)variance_ to make the optimizer aware of the stochasticity of the evaluations it receives. I believe that this can help improve various aspects of stochastic optimization algorithms. For example, gradient variance estimates can be used to adaptively choose batch sizes when performing stochastic gradient descent [(Balles et al., 2017)](https://arxiv.org/abs/1612.05086). Variance estimates can also be used to manipulate the update direction itself by "damping" directions with low signal-to-noise ratio [(Balles and Hennig, 2018)](https://arxiv.org/abs/1705.07774). This is related to preconditioning with the so-called empirical Fisher matrix [(Kunstner, Balles, and Hennig, 2019)](https://arxiv.org/abs/1905.12558).
+One focus area of my research is the use of (estimates of) the _stochastic gradient (co-)variance_ to make the optimizer aware of the stochasticity of the evaluations it receives. I believe that this can help improve various aspects of stochastic optimization algorithms. For example, gradient variance estimates can be used to adaptively choose batch sizes when performing stochastic gradient descent [(Balles et al., 2017)](https://arxiv.org/abs/1612.05086). Variance estimates can also be used to manipulate the update direction itself by "damping" directions with low signal-to-noise ratio [(Balles and Hennig, 2018)](https://arxiv.org/abs/1705.07774). This is related to preconditioning with the so-called empirical Fisher matrix [(Kunstner, Balles, and Hennig, 2019)](https://arxiv.org/abs/1905.12558).
 
 Check out my [Google Scholar page](https://scholar.google.de/citations?user=2lq9JQIAAAAJ&hl=de) for a list of publications.
 For some projects, code can be found on my [GitHub page](https://github.com/lballes).
